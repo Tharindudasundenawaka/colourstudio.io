@@ -1,0 +1,82 @@
+.singlePage__header {
+  font-family: "Sono", sans-serif;
+  margin-top: 7rem;
+  color: #fff;
+}
+
+
+.singlePage_title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.singlePage__body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px ;
+}
+
+
+
+.singlePage_image {
+  width: 550px;
+  height: 300px;
+  object-fit: fill;
+  margin: 10px 0;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.singlePage_description {
+  height: 20rem;
+  font-family: 'Libre Baskerville', serif;
+  margin: 40px;
+  line-height: 1.5;
+  padding: 20px ;
+  color: #fff;
+  margin-bottom: 0rem;
+}
+
+.singlePage_description h4 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.singlePage_description span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .singlePage__header{
+    margin-top: 8rem;
+  }
+  .singlePage__body {
+  flex-direction: column;
+  padding: 10px;
+  }
+  
+  .singlePage_image {
+  width: 80%;
+  height: 350px;
+  margin: 20px 0;
+  margin-left: 8%;
+  }
+  
+  .singlePage_description {
+  margin: 20px 0;
+  margin-bottom: 5rem;
+  }
+  
+  .singlePage_description h4 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  }
+  
+  .singlePage_description span {
+  font-size: 1rem;
+  }
+  }

@@ -1,0 +1,128 @@
+.footer {
+    background-color: #292929;
+    color: #fff;
+    padding: 10px 0px 1px 10px;
+    /* font-size: 18px; */
+    margin-top: 8rem;
+    border-radius: 50px 50px 0 0;
+  }
+  
+  .contact-header {
+    font-family: "Sono", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  
+  .footer_c {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px auto;
+  }
+  
+  .contact_one {
+    display: flex;
+  }
+  
+  .footer-contact {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-contact p {
+    color: #1fb87b;
+  }
+  .fb {
+    color: #1fb87b;
+  }
+  .footer-icons {
+    color: #0d71dc;
+    margin-bottom: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .contactdetails {
+    margin-top: 10px auto;
+    font-size: 14.5px;
+  }
+  .p_address {
+    margin: auto 22.5px;
+  }
+  
+  .p_hotline {
+    margin-top: 0;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  .p_hot {
+    margin-top: 0;
+    font-size: 16px;
+    margin-left: 2px;
+    cursor: pointer;
+  }
+  
+  .footer_img {
+    display: block;
+    margin: 10px auto 0;
+    max-width: 400px;
+  }
+  
+  .open_hr {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .auth {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 18px;
+  }
+  
+  .authmail {
+    color: yellow;
+    font-size: 12px;
+  }
+  
+  @media screen and (max-width: 768px) {
+
+    .contact-header{
+      font-size: 2rem;
+    }
+    
+    .footer-contact {
+      margin-right: 0;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .footer_c {
+      display: flex;
+      justify-content: space-between;
+      padding: 0px auto;
+    }
+  
+    .open_hr {
+      font-size: 18.2px;
+    }
+  
+    .contactdetails,
+    .p_address,
+    .p_hotline,
+    .p_hot {
+      margin-top: 10px auto;
+      font-size: 13.9px;
+    }
+  
+    .footer_img {
+      display: block;
+      margin: 10px auto 0;
+      max-width: 190px;
+    }
+  }
+  

@@ -1,0 +1,103 @@
+.wax-header {
+  font-family: "Sono", sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 3rem;
+}
+
+.wax-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin: 20px 50px;
+}
+
+.wax-card-body {
+  margin-bottom: 30px;
+}
+
+.wax-card-item {
+  width: 25rem;
+  /* height: 24.5rem; */
+  height: 17.5rem;
+  max-width: 100%;
+  margin: 0rem;
+  /* border-radius: 15px 15px 40px 40px; */
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #bc54bc;
+  background-color: #fff;
+}
+
+.wax-card-item:hover {
+  box-shadow: 0 0 20px #3d0662;
+  box-shadow: 20px #0520ef;
+}
+
+.wax-card-header {
+  text-align: center;
+  padding: rem;
+  margin: 0;
+}
+
+.wax-card-title {
+  font-family: "Libre Baskerville", serif;
+  font-size: 15px;
+  font-weight: 800;
+  margin: 0;
+  text-align: center;
+  color: #070707;
+  font-weight: bold;
+  height: 30px;
+}
+
+.wax-card-img-wrapper{
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+}
+
+.wax-card-image {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.wax-card-img-wrapper:hover .wax-card-image{
+  transform: scale(1.2);
+  transition: transform 0.5s ease;
+  z-index: 1;
+}
+.wax-card-more-info {
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+  background-color: #0077ff;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50px;
+  font-size: 15px;
+  width: 80%;
+  margin-left: 30px;
+  margin-top: 4px;
+}
+
+.wax-card-more-info:hover {
+  background-color: #6c114c;
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .wax-header{
+    font-size: 2rem;
+    margin-top: 8rem;
+  }
+
+  .wax-grid {
+    margin: 60px 20px;
+  }
+}

@@ -1,0 +1,83 @@
+.auto-paint-header {
+  font-family: "Sono", sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 3rem;
+}
+
+.auto-paint-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 50px 50px;
+}
+
+.auto-paint-card-body {
+  padding: 20px auto;
+  margin-bottom: 30px;
+}
+
+.auto-paint-card-item {
+  width: 20rem;
+  max-width: 100%;
+  margin: 0rem;
+  border-radius: 40px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #530885;
+}
+
+.auto-paint-card-item:hover {
+  box-shadow: 0 0 40px #380759;
+  /* box-shadow: 20px #0520ef; */
+}
+
+.auto-paint-card-header {
+  text-align: center;
+  padding: 1rem;
+  margin: 0;
+}
+
+.auto-paint-card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  color: #070707;
+  font-weight: bold;
+}
+
+.auto-paint-card-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+  object-fit: contain;
+}
+
+
+@media (max-width: 768px) {
+.auto-paint-grid {
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 20px;
+margin: 20px;
+}
+
+.auto-paint-card-item {
+width: 90%;
+margin: 10px 20px;
+}
+
+.auto-paint-card-image {
+height: 130px;
+}
+
+.auto-paint-header {
+font-size: 2rem;
+margin-top: 8rem;
+}
+
+.auto-paint-card-title {
+font-size: 16px;
+}
+}

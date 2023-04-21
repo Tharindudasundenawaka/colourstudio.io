@@ -1,0 +1,53 @@
+.about-header {
+  font-family: "Sono", sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 120px;
+}
+
+.about_imgs {
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto;
+  width: 60rem;
+  /* max-width: 600px; */
+  border-radius: 5px;
+  height: 21rem;
+}
+
+/* .about_imgs:hover {
+  transform: scale(1.05);
+  border: 1px solid #ccc;
+} */
+
+article {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 2;
+  margin: 2rem;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  .about-header {
+    font-size: 2rem;
+    margin-top: 8rem;
+  }
+
+  .about_imgs {
+    margin: 1rem auto;
+    max-width: 90%;
+  }
+
+  article {
+    font-size: 1rem;
+    margin: 1rem;
+  }
+}
